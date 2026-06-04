@@ -12,7 +12,10 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/com.github.wwmm.easyeffects.s
 export DESKTOP=/usr/share/applications/com.github.wwmm.easyeffects.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/easyeffects
+quick-sharun \
+  /usr/bin/easyeffects  \
+  /usr/lib/calf \
+  /usr/lib/lv2
 
 # Additional changes can be done in between here
 
