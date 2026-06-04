@@ -8,6 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
   easyeffects \
+  pipewire-pulse \
   calf zam-plugins-lv2 lsp-plugins-lv2 mda.lv2 \
   yelp
 
