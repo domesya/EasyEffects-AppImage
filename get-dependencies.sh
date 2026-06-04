@@ -10,7 +10,7 @@ pacman -Rdd --noconfirm pulseaudio || true
 pacman -Syu --noconfirm \
   easyeffects \
   pipewire-pulse pipewire-jack pipewire \
-  calf zam-plugins-lv2 lsp-plugins-lv2 mda.lv2 \
+  calf lsp-plugins-lv2 mda.lv2 \
   yelp noto-fonts
 
 echo "Installing debloated packages..."
@@ -18,7 +18,7 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano kiconthemes-mini 
 
 # Comment this out if you need an AUR package
-#make-aur-package PACKAGENAME
+make-aur-package zam-plugins-git
 
 # If the application needs to be manually built that has to be done down here
 
