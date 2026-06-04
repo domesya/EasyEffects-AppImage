@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-sudo pacman -Rdd --noconfirm pulseaudio || true
+pacman -Rdd --noconfirm pulseaudio || true
 pacman -Syu --noconfirm \
   easyeffects \
   pipewire-pulse pipewire-jack pipewire \
