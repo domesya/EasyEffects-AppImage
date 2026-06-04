@@ -10,12 +10,16 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/com.github.wwmm.easyeffects.svg
 export DESKTOP=/usr/share/applications/com.github.wwmm.easyeffects.desktop
+export DEPLOY_QT=1
+export DEPLOY_PIPEWIRE=1
+export DEPLOY_QML=1
 
 # Deploy dependencies
 quick-sharun \
   /usr/bin/easyeffects  \
   /usr/lib/calf \
-  /usr/lib/lv2
+  /usr/lib/lv2  \
+  /usr/lib/libKirigamiFormsPrivateCards.so*
 
 # Additional changes can be done in between here
 
