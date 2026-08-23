@@ -11,7 +11,8 @@ pacman -Syu --noconfirm \
   easyeffects \
   pipewire-pulse pipewire-jack pipewire \
   calf lsp-plugins-lv2 mda.lv2 \
-  yelp noto-fonts
+  yelp noto-fonts \
+  kvantum qt6ct
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
