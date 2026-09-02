@@ -10,7 +10,7 @@ pacman -Rdd --noconfirm pulseaudio || true
 pacman -Syu --noconfirm \
   easyeffects \
   pipewire-pulse pipewire-jack pipewire \
-  calf lsp-plugins-lv2 mda.lv2 x42-plugins-lv2 libebur128 zita-convolver zam-plugins-lv2 speexdsp soundtouch rnnoise \
+  calf lsp-plugins-lv2 mda.lv2 x42-plugins-lv2 libebur128 zita-convolver speexdsp soundtouch rnnoise \
   yelp noto-fonts \
   kvantum qt6ct
 
