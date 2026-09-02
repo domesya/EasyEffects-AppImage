@@ -21,7 +21,14 @@ export PATH_MAPPING='
 quick-sharun \
   /usr/bin/easyeffects  \
   /usr/lib/calf \
-  /usr/lib/lv2  \
+  /usr/lib/libebur128.so* \
+  /usr/lib/librnnoise.so* \
+  /usr/lib/libSoundTouch.so* \
+  /usr/lib/libspeexdsp.so* \
+  /usr/lib/lv2/mda.lv2/Bandisto.so \
+  /usr/lib/libzita-convolver.so* \
+  /usr/lib/lv2/ZaMaximX2.lv2/  \
+  /usr/lib/lv2/fat1.lv2/  \
   /usr/lib/libKirigamiFormsPrivateCards.so*
 
 # Additional changes can be done in between here
