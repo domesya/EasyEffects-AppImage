@@ -13,6 +13,9 @@ export DESKTOP=/usr/share/applications/com.github.wwmm.easyeffects.desktop
 export DEPLOY_QT=1
 export DEPLOY_PIPEWIRE=1
 export DEPLOY_QML=1
+export PATH_MAPPING='
+  /usr/lib/lv2:${SHARUN_DIR}/lib/lv2
+'
 
 # Deploy dependencies
 quick-sharun \
