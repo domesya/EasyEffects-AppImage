@@ -19,17 +19,18 @@ export PATH_MAPPING='
 
 # Deploy dependencies
 quick-sharun \
-  /usr/bin/easyeffects  \
   /usr/lib/calf \
+  /usr/bin/easyeffects  \
   /usr/lib/libebur128.so* \
   /usr/lib/librnnoise.so* \
-  /usr/lib/libSoundTouch.so* \
-  /usr/lib/libspeexdsp.so* \
-  /usr/lib/lv2/mda.lv2/Bandisto.so \
-  /usr/lib/libzita-convolver.so* \
-  /usr/lib/lv2/ZaMaximX2.lv2/  \
   /usr/lib/lv2/fat1.lv2/  \
-  /usr/lib/libKirigamiFormsPrivateCards.so*
+  /usr/lib/libspeexdsp.so* \
+  /usr/lib/libSoundTouch.so* \
+  /usr/lib/lv2/ZaMaximX2.lv2/  \
+  /usr/lib/libzita-convolver.so* \
+  /usr/lib/lv2/mda.lv2/Bandisto.so \
+  /usr/lib/libKirigamiFormsPrivateCards.so* \
+  /usr/lib/lv2/lsp-plugins.lv2/para_equalizer_x32_ms.so 
 
 # Additional changes can be done in between here
 
