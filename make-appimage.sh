@@ -30,6 +30,8 @@ quick-sharun \
   /usr/lib/libzita-convolver.so* \
   /usr/lib/lv2/mda.lv2/Bandisto.so \
   /usr/lib/libKirigamiFormsPrivateCards.so* \
+  /usr/lib/lv2/lsp-plugins.lv2/lsp-plugins-lv2.so \
+  /usr/lib/lv2/lsp-plugins.lv2/lsp-plugins-lv2ui.so \
   /usr/lib/lv2/lsp-plugins.lv2/para_equalizer_x32_ms.ttl 
 
 # Additional changes can be done in between here
