@@ -21,6 +21,7 @@ export PATH_MAPPING='
 quick-sharun \
   /usr/lib/calf \
   /usr/bin/easyeffects  \
+  /usr/lib/lv2/calf.lv2 \
   /usr/lib/libebur128.so* \
   /usr/lib/librnnoise.so* \
   /usr/lib/lv2/fat1.lv2/  \
