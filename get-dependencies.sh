@@ -20,7 +20,7 @@ get-debloated-pkgs --add-common --prefer-nano kiconthemes-mini
 
 # Comment this out if you need an AUR package
 make-aur-package zam-plugins-git
-
+make-aur-package deepfilternet-plus-bin
 # If the application needs to be manually built that has to be done down here
 
 # if you also have to make nightly releases check for DEVEL_RELEASE = 1
