@@ -6,13 +6,13 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Rdd --noconfirm pulseaudio || true
+# pacman -Rdd --noconfirm pulseaudio || true
 pacman -Syu --noconfirm \
   easyeffects \
-  pipewire-pulse pipewire-jack pipewire \
   calf lsp-plugins-lv2 mda.lv2 x42-plugins-lv2 libebur128 zita-convolver speexdsp soundtouch rnnoise \
   yelp noto-fonts \
   kvantum qt6ct
+  # pipewire-pulse pipewire-jack pipewire \
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
