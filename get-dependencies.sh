@@ -8,7 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 # pacman -Rdd --noconfirm pulseaudio || true
 pacman -Syu --noconfirm \
-  --assume-installed pipewire-pulse
+  --assume-installed pipewire-pulse \
   easyeffects \
   calf lsp-plugins-lv2 mda.lv2 x42-plugins-lv2 libebur128 zita-convolver speexdsp soundtouch rnnoise \
   yelp noto-fonts \
