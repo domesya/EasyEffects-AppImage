@@ -9,6 +9,7 @@ echo "---------------------------------------------------------------"
 # pacman -Rdd --noconfirm pulseaudio || true
 pacman -Syu --noconfirm \
   --assume-installed pipewire-pulse \
+  libpulse libpipewire libmysofa \
   easyeffects \
   calf lsp-plugins-lv2 mda.lv2 x42-plugins-lv2 libebur128 zita-convolver speexdsp soundtouch rnnoise \
   yelp noto-fonts \
